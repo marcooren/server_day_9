@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, blue, white);
+        }
+        
+        form {
+            margin: 30px;
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(to bottom right, blue, white);
+            padding: 2px;
+            border-radius: 5%;
+            transform: rotate(7deg);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <form action="/form">
+            </br>
+            full name:</br>
+            <input type="text" id: "name" value="name" name="name" /> </br>
+            password:
+            </br>
+            <input type="password" id="password" value="password" name="password" /></br>
+            </br>Country:
+            <select name="Country" checked="checked">
+    <option id="1" value="China">China</option>
+    <option id="2" value="Israel">Israel</option>
+    <option id="3" value="USA">USA</option>
+ 
+  </select>
+
+            </br>
+            </br>
+            </br><input type="radio" name="gender" value="male"> I am a male<br>
+            <input type="radio" name="gender" value="female"> I am a Female<br></br>
+
+            <fieldset>
+                <legend>Pets Policy:</legend>
+                <input type="checkbox" value="dog" name="dog" />I have a Dog</br>
+                <input type="checkbox" value="cat" checked="checked" name="dog" />I have a Cat</br>
+            </fieldset>
+
+            </br>
+            </br>
+
+            some words about me:<textarea value="enter text" name="text" id="1">text</textarea>
+            </br>
+            </br>
+            <input type="submit" value="Submit">
+
+
+        </form>
+    </center>
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+    "name": "server_day_9",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.14.0",
+        "open": "^0.0.5",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcooren/server_day_9.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/marcooren/server_day_9/issues"
+    },
+    "homepage": "https://github.com/marcooren/server_day_9#readme"
+}
